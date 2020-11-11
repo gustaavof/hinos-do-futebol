@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desfoque3"
+    tools:context=".fragment.ClubesBrasileirosFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonAtletico"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/atletico"
+                    android:tag="atletico" />
+
+                <ImageButton
+                    android:id="@+id/buttonBotafogo"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/botafogo"
+                    android:tag="botafogo" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonCorinthians"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/corinthians"
+                    android:tag="corinthians" />
+
+                <ImageButton
+                    android:id="@+id/buttonCruzeiro"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/cruzeiro"
+                    android:tag="cruzeiro" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonFlamengo"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/flamengo"
+                    android:tag="flamengo" />
+
+                <ImageButton
+                    android:id="@+id/buttonFluminense"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/fluminense"
+                    android:tag="fluminense" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonGremio"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/gremio"
+                    android:tag="gremio" />
+
+                <ImageButton
+                    android:id="@+id/buttonInternacional"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/internacional"
+                    android:tag="internacional" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonPalmeiras"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/palmeiras"
+                    android:tag="palmeiras" />
+
+                <ImageButton
+                    android:id="@+id/buttonSantos"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/santos"
+                    android:tag="santos" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonSaoPaulo"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/saopaulo"
+                    android:tag="saoPaulo" />
+
+                <ImageButton
+                    android:id="@+id/buttonVasco"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/vasco"
+                    android:tag="vasco" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
+

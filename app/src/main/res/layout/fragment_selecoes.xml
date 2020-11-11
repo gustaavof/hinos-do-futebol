@@ -1,0 +1,182 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desfoque3"
+    tools:context=".fragment.SelecoesFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonBrasil"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/brasil"
+                    android:tag="brasil" />
+
+                <ImageButton
+                    android:id="@+id/buttonAlemanha"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/alemanha"
+                    android:tag="alemanha" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonArgentina"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/argentina"
+                    android:tag="argentina" />
+
+                <ImageButton
+                    android:id="@+id/buttonEspanha"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/espanha"
+                    android:tag="espanha" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonFranca"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/franca6"
+                    android:tag="franca" />
+
+                <ImageButton
+                    android:id="@+id/buttonHolanda"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/holanda"
+                    android:tag="holanda" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonInglaterra"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/inglaterra"
+                    android:tag="inglaterra" />
+
+                <ImageButton
+                    android:id="@+id/buttonItalia"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/italia"
+                    android:tag="italia" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonMexico"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/mexico"
+                    android:tag="mexico" />
+
+                <ImageButton
+                    android:id="@+id/buttonPortugal"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/portugal"
+                    android:tag="portugal" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonUruguai"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/uruguai"
+                    android:tag="uruguai" />
+
+                <ImageButton
+                    android:id="@+id/buttonUsa"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/usa"
+                    android:tag="usa" />
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

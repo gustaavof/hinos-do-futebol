@@ -1,0 +1,15 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">#233D24</item>
+        <item name="android:windowBackground">@color/background</item>
+        <item name="colorAccent">#FFF</item>
+    </style>
+    <style name="SeekBarColor"
+        parent="Widget.AppCompat.SeekBar">
+        <item name="colorAccent">#FFF</item>
+    </style>
+</resources>

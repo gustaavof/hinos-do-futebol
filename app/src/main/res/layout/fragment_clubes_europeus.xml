@@ -1,0 +1,265 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/desfoque3"
+    tools:context=".fragment.ClubesEuropeusFragment">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginTop="16dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonArsenal"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/arsenal"
+                    android:tag="arsenal" />
+
+                <ImageButton
+                    android:id="@+id/buttonBenfica"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/benfica"
+                    android:tag="benfica" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonAtleticoMadrid"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/atleticomadrid"
+                    android:tag="atleticomadrid" />
+
+                <ImageButton
+                    android:id="@+id/buttonBarcelona"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_gravity="bottom"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/barcelona"
+                    android:tag="barcelona" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonBayern"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/bayern"
+                    android:tag="bayern" />
+
+                <ImageButton
+                    android:id="@+id/buttonAjax"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/ajax"
+                    android:tag="ajax" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonBVB"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/bvb"
+                    android:tag="bvb" />
+
+                <ImageButton
+                    android:id="@+id/buttonChelsea"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/chelsea"
+                    android:tag="chelsea" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonCity"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/city"
+                    android:tag="city" />
+
+                <ImageButton
+                    android:id="@+id/buttonInter"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/inter"
+                    android:tag="inter" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonJuventus"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/juventus"
+                    android:tag="juventus" />
+
+                <ImageButton
+                    android:id="@+id/buttonLiverpool"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/liverpool"
+                    android:tag="liverpool" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonMilan"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/milan"
+                    android:tag="milan" />
+
+                <ImageButton
+                    android:id="@+id/buttonPorto"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/porto"
+                    android:tag="porto" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonPSG"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/psg"
+                    android:tag="psg" />
+
+                <ImageButton
+                    android:id="@+id/buttonUnited"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/united"
+                    android:tag="united" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="16dp"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonTottenham"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/tottenham"
+                    android:tag="tottenham" />
+
+                <ImageButton
+                    android:id="@+id/buttonReal"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:paddingTop="10dp"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/real"
+                    android:tag="real" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
