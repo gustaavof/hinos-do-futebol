@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/desfoque3"
+    android:background="@drawable/fragmentbg"
     tools:context=".fragment.ClubesEuropeusFragment">
 
     <ScrollView
@@ -167,22 +167,6 @@
                     android:tag="juventus" />
 
                 <ImageButton
-                    android:id="@+id/buttonLiverpool"
-                    android:layout_width="125dp"
-                    android:layout_height="125dp"
-                    android:layout_weight="1"
-                    android:background="@android:color/transparent"
-                    android:scaleType="fitCenter"
-                    android:src="@drawable/liverpool"
-                    android:tag="liverpool" />
-            </LinearLayout>
-
-            <LinearLayout
-                android:layout_width="match_parent"
-                android:layout_height="match_parent"
-                android:orientation="horizontal">
-
-                <ImageButton
                     android:id="@+id/buttonMilan"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
@@ -191,6 +175,23 @@
                     android:scaleType="fitCenter"
                     android:src="@drawable/milan"
                     android:tag="milan" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <ImageButton
+                    android:id="@+id/buttonLiverpool"
+                    android:layout_width="125dp"
+                    android:layout_height="125dp"
+                    android:layout_weight="1"
+                    android:background="@android:color/transparent"
+                    android:scaleType="fitCenter"
+                    android:src="@drawable/liverpool"
+                    android:tag="liverpool" />
 
                 <ImageButton
                     android:id="@+id/buttonPorto"

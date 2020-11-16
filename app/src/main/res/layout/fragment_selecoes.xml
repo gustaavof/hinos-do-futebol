@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="@drawable/desfoque3"
+    android:background="@drawable/fragmentbg"
     tools:context=".fragment.SelecoesFragment">
 
     <ScrollView
@@ -81,18 +81,19 @@
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/franca6"
+                    android:src="@drawable/franca"
                     android:tag="franca" />
 
                 <ImageButton
-                    android:id="@+id/buttonHolanda"
+                    android:id="@+id/buttonUruguai"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/holanda"
-                    android:tag="holanda" />
+                    android:src="@drawable/uruguai"
+                    android:tag="uruguai" />
+
             </LinearLayout>
 
             <LinearLayout
@@ -156,14 +157,14 @@
                 android:orientation="horizontal">
 
                 <ImageButton
-                    android:id="@+id/buttonUruguai"
+                    android:id="@+id/buttonHolanda"
                     android:layout_width="125dp"
                     android:layout_height="125dp"
                     android:layout_weight="1"
                     android:background="@android:color/transparent"
                     android:scaleType="fitCenter"
-                    android:src="@drawable/uruguai"
-                    android:tag="uruguai" />
+                    android:src="@drawable/holanda"
+                    android:tag="holanda" />
 
                 <ImageButton
                     android:id="@+id/buttonUsa"
