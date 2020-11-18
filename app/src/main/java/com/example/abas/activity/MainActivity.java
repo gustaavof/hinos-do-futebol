@@ -78,7 +78,7 @@ public class MainActivity extends AppCompatActivity implements View.OnTouchListe
     private Time internacional = new Time(R.drawable.internacional, "https://firebasestorage.googleapis.com/v0/b/test-463bf.appspot.com/o/brasileiros%2Fhinointernacional.mp3?alt=media&token=1405f079-1698-410b-a7b3-307c0ab2cf8f", "internacional");
     private Time palmeiras = new Time(R.drawable.palmeiras, "https://firebasestorage.googleapis.com/v0/b/test-463bf.appspot.com/o/brasileiros%2Fhinopalmeiras.mp3?alt=media&token=f99687a4-c21f-4636-b05e-d2755759c765", "palmeiras");
     private Time santos = new Time(R.drawable.santos, "https://firebasestorage.googleapis.com/v0/b/test-463bf.appspot.com/o/brasileiros%2Fhinosantos.mp3?alt=media&token=02da7b62-d811-4e0b-9d4f-910e45935aa7", "santos");
-    private Time saoPaulo = new Time(R.drawable.saopaulo, "https://firebasestorage.googleapis.com/v0/b/test-463bf.appspot.com/o/brasileiros%2Fhinosaopaulo.mp3?alt=media&token=22e42dd0-f28e-47f9-8008-be212720987c", "saopaulo");
+    private Time saoPaulo = new Time(R.drawable.saopaulo, "https://firebasestorage.googleapis.com/v0/b/test-463bf.appspot.com/o/brasileiros%2Fhinosaopaulo.mp3?alt=media&token=22e42dd0-f28e-47f9-8008-be212720987c", "saoPaulo");
     private Time vasco = new Time(R.drawable.vasco, "https://firebasestorage.googleapis.com/v0/b/test-463bf.appspot.com/o/brasileiros%2Fhinovasco.mp3?alt=media&token=ad446c7b-6e5d-43c1-8d43-12ecaaef1345", "vasco");
 
     private List<Time> timesBrasileiros = new ArrayList<>();

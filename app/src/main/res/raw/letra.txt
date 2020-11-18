@@ -299,7 +299,7 @@ Jogue o que jogar
 Salve o nosso campeão!
 break
 
-saopaulo
+saoPaulo
 Salve o tricolor paulista
 Amado clube brasileiro
 Tu és forte, tu és grande
