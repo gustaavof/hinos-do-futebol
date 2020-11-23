@@ -57,12 +57,12 @@ public class PlayerActivity extends AppCompatActivity implements SeekBar.OnSeekB
         // extrair letra
         List<String> l = getLetra();
         letra.setText(l.get(0));
-        if(l.size()>1){
+        if (l.size() > 1) {
             Toast.makeText(this, "Toque na letra para alternar entre traduções.", Toast.LENGTH_SHORT).show();
             letra.setOnClickListener(new View.OnClickListener() {
                 @Override
                 public void onClick(View v) {
-                    if(letra.getText().equals(l.get(0))) letra.setText(l.get(1));
+                    if (letra.getText().equals(l.get(0))) letra.setText(l.get(1));
                     else letra.setText(l.get(0));
                 }
             });
@@ -195,9 +195,10 @@ public class PlayerActivity extends AppCompatActivity implements SeekBar.OnSeekB
                         letra += line + "\n";
                         line = br.readLine();
                     }
-                }if ((time.getNome()+"traduzido").equals(line)){
+                }
+                if ((time.getNome() + "traduzido").equals(line)) {
                     line = br.readLine();
-                    while (!line.equals("break")){
+                    while (!line.equals("break")) {
                         letraTraduzida += line + "\n";
                         line = br.readLine();
                     }
@@ -208,7 +209,7 @@ public class PlayerActivity extends AppCompatActivity implements SeekBar.OnSeekB
             e.printStackTrace();
         }
         letras.add(letra);
-        if(!letraTraduzida.equals("")){
+        if (!letraTraduzida.equals("")) {
             letras.add(letraTraduzida);
         }
         return letras;
